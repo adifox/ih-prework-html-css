@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(244, 248, 249);
+}
+
+img {
+  float: left;
+}
+
+time {
+  color: rgb(101, 116, 127);
+}
+
+.twttr-content {
+  font-family: arial, verdana, helvetica;
+  font-weight: bold;
+  width: 50%;
+  background: rgb(255, 255, 255);
+  border: rgb(225, 232, 237);
+  border-style: solid;
+  border-radius: 6px;
+  padding: 20px;
+  margin: auto;
+}
+
+/*here starts de twitter header secction*/
+.header {
+  width: 100%;
+  height: 80px;
+  position: relative;
+}
+#profile-picture {
+  padding-right: 15px;
+}
+#name {
+  float: left;
+}
+#at-jack {
+  clear: right;
+}
+.account, .follow {
+  width: 50%;
+  float: left;
+}
+.follow-button {
+  float: right;
+  width: 150px;
+  height: 50px;
+  border: rgb(85, 172, 238);
+  border-style: solid;
+  border-radius: 6px;
+}
+.text-content {
+  font-size: 20px;
+  line-height: 0.5;
+  width: 100%;
+  height: 80px;
+  position: relative;
+}
+#retweet, #favorite {
+  float: left;
+}
+
+.footer {
+  width: 100%;
+  display: inline-block;
+  clear: left;
+}
+
+
+/*start of the twitter body text*/
+
+
+/*start of the twitter footer*/
