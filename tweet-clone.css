@@ -1,11 +1,8 @@
 body {
   background-color: rgb(244, 248, 249);
 }
-
 img {
-  float: left;
 }
-
 time {
   color: rgb(101, 116, 127);
 }
@@ -28,19 +25,40 @@ time {
   height: 80px;
   position: relative;
 }
-#profile-picture {
-  padding-right: 15px;
-}
-#name {
-  float: left;
-}
-#at-jack {
-  clear: right;
-}
+/* header content*/
+
 .account, .follow {
   width: 50%;
   float: left;
 }
+
+.profile-picture {
+  width: 72px;
+  height: 72px;
+  float: left;
+  padding-right: 10px;
+}
+
+#account-info {
+  height: 25px;
+  border: none;
+}
+
+#account-logo, #name {
+  float: left;
+}
+
+#name {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+#at-jack {
+  font-size: 18px;
+  color: rgb(104, 109, 129);
+}
+
+/*follow button*/
 .follow-button {
   float: right;
   width: 150px;
@@ -48,7 +66,21 @@ time {
   border: rgb(85, 172, 238);
   border-style: solid;
   border-radius: 6px;
+  color: rgb(85, 172, 238);
+  font-size: 20px;
 }
+
+.twitter-logo {
+  width: 32px;
+  height: 29px;
+  margin: 10px 0 0 10px;
+  float: left;
+}
+
+#logo-text {
+  margin-bottom: 15px;
+}
+/*start of the twitter body text*/
 .text-content {
   font-size: 20px;
   line-height: 0.5;
@@ -56,18 +88,17 @@ time {
   height: 80px;
   position: relative;
 }
-#retweet, #favorite {
-  float: left;
-}
-
-.footer {
-  width: 100%;
-  display: inline-block;
-  clear: left;
-}
-
-
-/*start of the twitter body text*/
-
 
 /*start of the twitter footer*/
+.footer {
+  width: 100%;
+  height: 35px;
+  display: inline-block;
+  clear: left;
+  color: rgb(105, 120, 130);
+  font-size: 20px;
+}
+
+#reply, #retwt, #retweet, #favor, #favorite {
+  float: left;
+}
