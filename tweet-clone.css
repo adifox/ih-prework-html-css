@@ -1,10 +1,13 @@
 body {
   background-color: rgb(244, 248, 249);
 }
-img {
-}
+
 time {
   color: rgb(101, 116, 127);
+}
+
+p {
+  margin: 0;
 }
 
 .twttr-content {
@@ -19,8 +22,8 @@ time {
   margin: auto;
 }
 
-/*here starts de twitter header secction*/
-.header {
+/*here starts the twitter header secction*/
+#header {
   width: 100%;
   height: 80px;
   position: relative;
@@ -39,18 +42,20 @@ time {
   padding-right: 10px;
 }
 
-#account-info {
-  height: 25px;
-  border: none;
+.account-info {
+  width: 250px;
+  height: 40px;
 }
 
-#account-logo, #name {
+#account-logo, #name, #validated {
   float: left;
+  margin-left: 5px;
+  vertical-align: baseline;
 }
 
 #name {
   color: rgb(0, 0, 0);
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #at-jack {
@@ -68,37 +73,40 @@ time {
   border-radius: 6px;
   color: rgb(85, 172, 238);
   font-size: 20px;
+  line-height: 50px;
 }
 
 .twitter-logo {
   width: 32px;
   height: 29px;
-  margin: 10px 0 0 10px;
   float: left;
+  margin: 10px;
 }
 
-#logo-text {
-  margin-bottom: 15px;
-}
 /*start of the twitter body text*/
 .text-content {
-  font-size: 20px;
-  line-height: 0.5;
   width: 100%;
   height: 80px;
   position: relative;
+  font-size: 20px;
+  line-height: 1.5;
 }
+
 
 /*start of the twitter footer*/
 .footer {
   width: 100%;
   height: 35px;
-  display: inline-block;
-  clear: left;
   color: rgb(105, 120, 130);
   font-size: 20px;
 }
 
 #reply, #retwt, #retweet, #favor, #favorite {
   float: left;
+  margin-right: 10px;
 }
+
+#reply, #retweet {
+  margin-right: 25px;
+}
+
